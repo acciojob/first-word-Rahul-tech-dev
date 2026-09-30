@@ -1,7 +1,8 @@
 function firstWord(s) {
   // your code here
 	let first=s.split(" ");
-	return first[0];
+	if(first.length>0) return first[0];
+	return  "";
 }
 
 // Do not change the code below
